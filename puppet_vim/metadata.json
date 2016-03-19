@@ -1,0 +1,14 @@
+{
+  "name": "theurbanpenguin-puppet_vim",
+  "version": "0.1.0",
+  "author": "theurbanpenguin",
+  "summary": "Ensure full version of VIM is installed and syntact/indenting files for puppet code",
+  "license": "Apache-2.0",
+  "source": "https://github.com/theurbanpenguin/puppet-vim-syntax",
+  "project_page": "https://github.com/theurbanpenguin/puppet-vim-syntax",
+  "issues_url": "https://github.com/theurbanpenguin/puppet-vim-syntax/issues",
+  "dependencies": [
+  ],
+  "data_provider": null
+}
+
