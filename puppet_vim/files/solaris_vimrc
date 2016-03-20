@@ -1,7 +1,10 @@
 "Managed by Puppet do not edit
-syntax on
 filetype plugin indent on
-set ts=2
+syntax on
+set showmode
+set nocompatible
+set bs=2
+set ts=4
 set background=light
 set expandtab
 set softtabstop=2

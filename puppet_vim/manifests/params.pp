@@ -14,6 +14,12 @@ class puppet_vim::params {
       $vimrc_source = 'debian_vimrc'
       $vim_package  = 'vim'
     }
+    'Solaris': {
+      $vimdir       = '/usr/share/vim/vim73/'
+      $vimrc        = '/usr/share/vim/vimrc'
+      $vimrc_source = 'solaris_vimrc'
+      $vim_package  = 'vim'
+    }
     default: {
       fail( "Module ${module_name} isn't tested on ${::osfamily} based systems")
     }
