@@ -3,7 +3,7 @@
 class puppet_vim::params {
   case $::osfamily {
     'RedHat': {
-      $vimdir       = '/usr/share/vim/vim74/'
+      $vimdir       = '/usr/share/vim/vim80/'
       $vimrc        = '/etc/vimrc'
       $vimrc_source = 'redhat_vimrc'
       $vim_package  = 'vim-enhanced'
