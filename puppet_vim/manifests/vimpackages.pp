@@ -4,6 +4,6 @@ class puppet_vim::vimpackages (
 ) inherits puppet_vim::params
 {
   package { $vim_package :
-    ensure => 'installed',
+    ensure => 'latest',
   }
 }
